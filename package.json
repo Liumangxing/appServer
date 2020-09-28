@@ -1,0 +1,20 @@
+{
+  "name": "appServer",
+  "version": "1.0.0",
+  "description": "1.首先生成一个依赖包配置文件\r ```javascript\r npm init -y\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liumangxing/appServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liumangxing/appServer/issues"
+  },
+  "homepage": "https://github.com/Liumangxing/appServer#readme"
+}
