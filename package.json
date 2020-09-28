@@ -1,7 +1,7 @@
 {
   "name": "appServer",
   "version": "1.0.0",
-  "description": "1.首先生成一个依赖包配置文件\r ```javascript\r npm init -y\r ```",
+  "description": "基于nodejs搭建一个WEB服务器，使用TypeScript编写",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Liumangxing/appServer/issues"
   },
-  "homepage": "https://github.com/Liumangxing/appServer#readme"
+  "homepage": "https://github.com/Liumangxing/appServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.11.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.0.3"
+  }
 }
